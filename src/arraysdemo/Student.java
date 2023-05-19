@@ -6,6 +6,8 @@ package arraysdemo;
  * @author Alvin Che
  */
 public class Student {
+    //second commit
+    
     private String sId;
     private String sName;
 
