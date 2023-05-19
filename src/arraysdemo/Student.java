@@ -8,9 +8,12 @@ package arraysdemo;
 public class Student {
     //second commit
     //Sunday
+    
     private String sId;
     private String sName;
+    private String address;
 
+   
     public Student(){
         
     }
@@ -37,7 +40,15 @@ public class Student {
     public void setsName(String sName) {
         this.sName = sName;
     }
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
     
+     
     
     
     
