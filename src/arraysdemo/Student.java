@@ -6,6 +6,7 @@ package arraysdemo;
  * @author Alvin Che
  */
 public class Student {
+    //first comments
     private String sId;
     private String sName;
 
