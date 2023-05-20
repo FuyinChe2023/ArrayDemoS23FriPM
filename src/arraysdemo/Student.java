@@ -1,5 +1,7 @@
 package arraysdemo;
 
+import java.util.prefs.Preferences;
+
 
 /**
  *
@@ -12,7 +14,8 @@ public class Student {
     private String sId;
     private String sName;
     private String address;
-
+    private String gender;
+    
    
     public Student(){
         
@@ -46,6 +49,14 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
     
      
